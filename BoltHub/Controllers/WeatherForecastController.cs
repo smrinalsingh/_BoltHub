@@ -6,6 +6,9 @@ namespace BoltHub.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        /// <summary>
+        /// Test Add Commment for auto-build via Jenkins
+        /// </summary>
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
